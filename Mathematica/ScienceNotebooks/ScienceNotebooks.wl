@@ -54,11 +54,11 @@ FrontEndExecute[
     System`MenuKey["q", System`Modifiers -> {"Control"}],
     System`MenuEvaluator -> Automatic]}]]
     
-(* Shortcut for inputing Zotero references to Mathematica (Ctrl-Z) *)
+(* Shortcut for inputing Zotero references to Mathematica (Ctrl-  R) *)
  FrontEndExecute[
  FrontEnd`AddMenuCommands[
   "DuplicatePreviousOutput", {
-   MenuItem["Zotero link", FrontEndExecute[ScienceNotebooks`LinkZotero[]], System`MenuKey["z", System`Modifiers -> {Control}], 
+   MenuItem["Zotero link", FrontEndExecute[ScienceNotebooks`LinkZotero[]], System`MenuKey["r", System`Modifiers -> {Control}], 
     System`MenuEvaluator -> Automatic]}]]; 
 
 (* Insert a reference to another cell *)
